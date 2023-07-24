@@ -1,0 +1,242 @@
+:root {
+    --main_color: #bec3c7;
+    --secundary_color: #dba76e;
+    --h2_title: #F4E4D2;
+    --hero_banner: #7c510c;
+    --links_footer: #af905d;
+    --stroke: #d7d7d7;
+    --input_text: #2e3e4b;
+    --lupa: #0f0e14;
+}
+
+
+body {
+    width: 430px;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url(/project/images/mobile/Rectangle\ 47.jpg);
+}
+
+.header {
+    display: inline;
+    margin: 5% auto;
+
+}
+
+.header img {
+    width: 18%;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+img {
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.title_primary {
+    font-family: Baskerville Old Face;
+    font-size: 2rem;
+    color: var(--main_color);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.title_secundary {
+    color: var(--secundary_color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.hero {
+    width: 80%;
+    margin: auto;
+
+}
+
+h2 {
+    color: var(--main_color);
+    font-family: Baskerville Old Face;
+    font-size: 2rem;
+    padding: 5% 0;
+}
+
+h2 span {
+    margin-left: 30%;
+}
+
+.hero_banner {
+    background-color: var(--hero_banner);
+    font-size: 1rem;
+    color: var(--main_color);
+    text-align: center;
+}
+
+h3 {
+    padding: 2%;
+}
+
+.hero_text {
+    width: 96%;
+    color: var(--main_color);
+    text-align: center;
+    padding: 5% 0;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin-top: 15%;
+}
+
+input {
+    background-color: var(--stroke);
+    border: 0;
+    outline: 0;
+    color: var(--input_text);
+    width: 80%;
+    margin: 0%;
+}
+
+.search_box {
+    background-color: var(--stroke);
+    width: 90%;
+    height: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    width: 25%;
+    border-radius: 0%;
+    border: 0;
+    background-color: var(--hero_banner);
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    color: var(--lupa);
+    font-size: 24px;
+}
+
+.picture {
+    padding-top: 15%;
+    width: 90%;
+    height: 57%;
+}
+
+.galery {
+    display: flex;
+    overflow: scroll;
+
+}
+
+
+
+.picture img {
+    width: 80%;
+
+}
+
+
+.footer {
+    color: var(--main_color);
+    text-align: center;
+    width: 80%;
+    margin: 30% auto;
+    box-sizing: border-box;
+}
+
+.footer a {
+    color: var(--links_footer);
+    font-size: 80%;
+    width: 100%;
+    padding: 2% 0;
+
+}
+
+.footer i {
+    margin-right: 1%;
+}
+
+.socials_links {
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.socials_links a:last-child {
+    margin-left: 8%;
+}
+
+.socials_links a:nth-child(2) {
+    margin-left: 10%;
+}
+
+.text_footer {
+    color: var(--main_color);
+    font-size: 90%;
+    line-height: 1;
+
+}
+
+.footer p:first-child {
+    text-align: left;
+}
+
+.footer p:last-child {
+    padding-bottom: 5%;
+}
+
+.header_nav {
+    clear: left;
+}
+
+.header_nav ul {
+    margin: 0%;
+    padding: 0;
+}
+
+.header_nav li {
+    list-style-type: none;
+    background:  rgba(255, 255, 255, 0.1);
+
+    text-align: center;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+
+.header_nav li:hover {
+    background-color: rgb(172, 95, 8, 0.4);
+}
+
+.header_nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main_color);
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    padding: 25px 0;
+    transition: .8s ease;
+}
+
+.header_nav a:active {
+    color: rgb(53, 49, 42);
+}
+
+.header_nav a:hover {
+    color:var(--h2_title);
+}
+
+.header_btnMenu {
+    float: right;
+    margin: 1.5em;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
