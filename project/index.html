@@ -14,69 +14,114 @@
     <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
-    <script src="/project/js/menu.js"></script>
 
 </head>
 
 <body class="no-js">
 
     <header class="header">
-        <img src="/project/images/mobile/Group 130.svg" alt="Logo Legal Legends Labor Law">
-        <h1 class="title_primary">Legal Legends<br><span class="title_secundary">Law Office</span></h1>
-
-        <button class="header_btnMenu" style="display: none;"><i class="fas fa-bars fa-2x"></i></button>
-
+        <div>
+            <img src="/project/images/mobile/Group 130.svg" alt="Logo Legal Legends Labor Law">
+            <h1 class="title_primary">Legal Legends<br><span class="title_secundary">Law Office</span></h1>
+        </div>
+        
         <nav class="header_nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+            <ul id="menu_default">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="#">Courts</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
+            <button class="header_btnMenu" id="menu"><i class="fas fa-bars fa-2x"></i></button>
+            <div id="div"><ul id="menu_List" >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Courts</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
         </nav>
     </header>
 
-    <section class="hero">
+    <main>
+        <section class="hero">
 
-        <h2>Specialists in Business and <br> <span class="title_secundary">Labor Law</span></h2>
+            <h2>Specialists in Business and <br> <span class="title_secundary">Labor Law</span></h2>
 
-        <div class="hero_banner">
-            <h3>We believe in the constitution</h3>
-        </div>
+            <div class="hero_banner">
+                <h3>We believe in the constitution</h3>
+            </div>
 
-        <p class="hero_text">Lorem ipsum dolor sit amet consectetur. Tincidunt lacus sem vitae diam tempus proin
-            condimentum rhoncus ut. Amet cursus montes risus nisi volutpat odio vel.</p>
+            <p class="hero_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur impedit maxime
+                dolore id eum corrupti cumque quam aliquam cupiditate qui voluptatibus, temporibus quo aut quae
+                laudantium nostrum, numquam, voluptate error.Lorem ipsum dolor sit amet consectetur. Tincidunt lacus sem
+                vitae diam tempus proin
+                condimentum rhoncus ut.</p>
 
-        <div class="search_box">
-            <input type="text" name="search" id="hero_search" placeholder="Search for cases...">
-            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
-    </section>
+        </section>
 
-    <section class="picture">
+        <section class="galery">
+            <div class="search_box">
+                <input type="search" name="search" id="hero_search" placeholder="Search for cases...">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="content">
+                <div class="slides">
+                    <input class="input" type="radio" name="slide" id="slide1" checked>
+                    <input class="input" type="radio" name="slide" id="slide2">
+                    <input class="input" type="radio" name="slide" id="slide3">
+                    <input class="input" type="radio" name="slide" id="slide4">
+                    <input class="input" type="radio" name="slide" id="slide5">
 
-        <div class="galery">
-            <img src="images/mobile/Rectangle 52.svg" alt="">
-            <img src="images/mobile/Rectangle 53.svg" alt="">
-            <img src="images/mobile/Rectangle 54.svg" alt="">
-            <img src="images/mobile/Rectangle 55.svg" alt="">
-            <img src="images/mobile/Rectangle 56.svg" alt="">
-        </div>
+                    <div class="slide s1">
+                        <img src="/project/images/mobile/Rectangle 52.svg" alt="image team Legal legends">
+                    </div>
+                    <div class="slide">
+                        <img src="/project/images/mobile/Rectangle 53.svg" alt="image Lindsey Torff">
+                    </div>
+                    <div class="slide">
+                        <img src="/project/images/mobile/Rectangle 54.svg" alt="image Anika Culhane">
+                    </div>
+                    <div class="slide">
+                        <img src="/project/images/mobile/Rectangle 55.svg" alt="image Charlie Botosh">
+                    </div>
+                    <div class="slide">
+                        <img src="/project/images/mobile/Rectangle 56.svg" alt="image team Legal legends at work>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <label class="bar" id="bar1" for="slide1"></label>
+                <label class="bar" id="bar2" for="slide2"></label>
+                <label class="bar" id="bar3" for="slide3"></label>
+                <label class="bar" id="bar4" for="slide4"></label>
+                <label class="bar" id="bar5" for="slide5"></label>
+            </div>
 
-    </section>
+        </section>
+    </main>
 
     <footer class="footer">
 
-        <p>Follow us:</p>
+        <p class="text_footer">Follow us:</p>
         <div class="socials_links">
-            <a href="#"><i class="fa-brands fa-square-facebook"></i>Legallegends</a>
-            <a href="#"><i class="fa-brands fa-instagram"></i>Legallegends</a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i>Legallegends</a>
+            <a href="Legallegends" target="_blank"><i class="fa-brands fa-square-facebook"></i>Legallegends</a>
+            <a href="Legallegends" target="_blank"><i class="fa-brands fa-instagram"></i>Legallegends</a>
+            <a href="Legallegends" target="_blank"><i class="fa-brands fa-linkedin"></i>Legallegends</a>
         </div>
         <p class="text_footer">Avenue Louis, 204, eighth floor, Brooklin, New York</p>
         <p class="text_footer"><i class="fa-regular fa-copyright"></i>All rights reserved</p>
     </footer>
+
+    <div class="btn_whats">
+        <a href="https://wa.me/5500999999999" target="_blank">
+            <img src="images/mobile/Group 141.png" alt="send a message" title="send a message">
+        </a>
+    </div>
+    <script src="/project/js/main.js"></script>
+
 </body>
 
 </html>
