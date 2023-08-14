@@ -35,7 +35,7 @@
 body {
     height: 100vh;
     font-family: sans-serif;
-    background-image: url(/project/images/mobile/Rectangle\ 2\ \(1\).jpg);
+    background-image: url(/images/mobile/Rectangle\ 2\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -210,7 +210,7 @@ input {
 
 .btn_whats {
     position: fixed;
-    bottom: 17%;
+    bottom: 14%;
     right: 10px;
     cursor: pointer;
 }
@@ -227,17 +227,17 @@ button {
 
 .content {
     overflow: hidden;
-    margin: auto;
+    margin: 0 auto;
+    height: 60%;
 }
 
 .slides {
     display: flex;
     width: 500%;
-    height: 100%;
 }
 
 .slide {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     width: 20%;
@@ -246,7 +246,8 @@ button {
 
 .content .slide img {
     width: 100%;
-    height: 80vh;
+    height: 50vh;
+    margin: 0;
 }
 
 .input {
