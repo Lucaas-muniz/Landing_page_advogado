@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Legal Legends</title>
+    <title>Legal Legends / Contact</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
-
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 
 <body class="no-js">
@@ -24,7 +24,6 @@
             <img src="/images/mobile/Group 130.svg" alt="Logo Legal Legends Labor Law">
             <h1 class="title_primary">Legal Legends<br><span class="title_secundary">Law Office</span></h1>
         </div>
-
         <nav class="header_nav">
             <ul id="menu_default">
                 <li><a href="index.html">Home</a></li>
@@ -46,56 +45,33 @@
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-
-            <h2>Specialists in Business and <br> <span class="title_secundary">Labor Law</span></h2>
-
-            <div class="hero_banner">
-                <h3>We believe in the constitution</h3>
+    <main class="contact">
+        <header class="title">
+            <h2>Contact <br> <span class="title_secundary">Us</span></h2>
+        </header>
+        <p class="text">Send us a message, we want to hear from you!</p>
+        <form action="#" method="post" class="form">
+            <div>
+                <label for="name">Nome:<input type="text" name="name" id="name" autocomplete="off" autofocus required
+                        maxlength="40"></label>
             </div>
-
-            <p class="hero_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur impedit maxime
-                dolore id eum corrupti cumque quam aliquam cupiditate qui voluptatibus, temporibus quo aut quae
-                laudantium nostrum, numquam, voluptate error.Lorem ipsum dolor sit amet consectetur. Tincidunt lacus sem
-                vitae diam tempus proin
-                condimentum rhoncus ut.</p>
-
-        </section>
-
-        <section class="galery">
-            <div class="search_box">
-                <input type="search" name="search" id="hero_search" placeholder="Search for cases...">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div>
+                <label for="email">E-mail:<input type="email" name="email" id="email" autocomplete="off" required
+                        maxlength="40"></label>
             </div>
-            <div class="content">
-                <div class="slides">
-                    <input class="input" type="radio" name="slide" id="slide1" checked>
-                    <input class="input" type="radio" name="slide" id="slide2">
-                    <input class="input" type="radio" name="slide" id="slide3">
-                    <input class="input" type="radio" name="slide" id="slide4">
-                    <input class="input" type="radio" name="slide" id="slide5">
-
-
-                    <div class="slide s1"><img src="/images/mobile/Rectangle 52.svg" alt="image team Legal legends">
-                    </div>
-                    <div class="slide"><img src="/images/mobile/Rectangle 53.svg" alt="image Lindsey Torff"></div>
-                    <div class="slide"><img src="/images/mobile/Rectangle 54.svg" alt="image Anika Culhane"></div>
-                    <div class="slide"><img src="/images/mobile/Rectangle 55.svg" alt="image Charlie Botosh"></div>
-                    <div class="slide"><img src="/images/mobile/Rectangle 56.svg"
-                            alt="image team Legal legends at work"></div>
-                </div>
+            <div>
+                <label for="subject">Subject:<input type="text" name="subject" id="subject" autocomplete="off" required
+                        maxlength="20"></label>
             </div>
-
-
-            <div class="navigation">
-                <label class="bar" id="bar1" for="slide1"></label>
-                <label class="bar" id="bar2" for="slide2"></label>
-                <label class="bar" id="bar3" for="slide3"></label>
-                <label class="bar" id="bar4" for="slide4"></label>
-                <label class="bar" id="bar5" for="slide5"></label>
+            <div>
+                <label for="message">Message:<textarea name="message" id="message" cols="30" rows="10"
+                        required></textarea></label>
             </div>
-        </section>
+            <div>
+                <input name="btn" id="btn" type="submit" value="Send">
+            </div>
+        </form>
+
     </main>
 
     <footer class="footer">
@@ -115,6 +91,7 @@
             <img src="images/mobile/Group 141.png" alt="send a message" title="send a message">
         </a>
     </div>
+
     <script src="/js/main.js"></script>
 
 </body>
